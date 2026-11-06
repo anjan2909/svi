@@ -1,0 +1,10 @@
+{
+  "name": "svi-website",
+  "private": true,
+  "description": "SVI Control Panel website: static site + Vercel functions + Supabase enquiries",
+  "scripts": {
+    "test": "node --test tests/*.test.cjs",
+    "dev": "node scripts/dev-server.cjs"
+  },
+  "engines": { "node": "24.x" }
+}
