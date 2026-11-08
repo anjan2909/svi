@@ -24,7 +24,7 @@
   --line-light: rgba(255, 255, 255, .15);
   --ok: #7ad9a4;
   --err: #ff9a8a;
-  --shell: min(1180px, calc(100% - 48px));
+  --shell: min(1840px, calc(100% - 80px));
   --display: "Manrope", system-ui, sans-serif;
   --body: "DM Sans", system-ui, sans-serif;
 }
@@ -363,7 +363,7 @@ footer { background: #040b11; color: #8f9aa2; padding: 36px 0; font-size: 13px; 
 
 /* ---------- Responsive ---------- */
 @media (max-width: 900px) {
-  :root { --shell: min(100% - 32px, 720px); }
+  :root { --shell: calc(100% - 48px); }
   .nav-wrap { height: 72px; }
   .brand-logo { width: 42px; height: 42px; }
   .menu-toggle { display: block; }
