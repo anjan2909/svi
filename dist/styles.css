@@ -62,11 +62,7 @@ h1 em, .contact h2 em { font-style: normal; color: var(--amber); }
 .site-header.scrolled, .site-header.menu-open { background: rgba(7, 18, 28, .94); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border-color: rgba(255, 255, 255, .12); }
 .nav-wrap { height: 86px; display: flex; align-items: center; justify-content: space-between; }
 .brand { display: flex; align-items: center; gap: 11px; }
-.brand-mark { width: 38px; height: 38px; display: flex; gap: 3px; align-items: flex-end; transform: skew(-11deg); }
-.brand-mark i { display: block; width: 9px; background: var(--amber); }
-.brand-mark i:nth-child(1) { height: 22px; }
-.brand-mark i:nth-child(2) { height: 31px; }
-.brand-mark i:nth-child(3) { height: 16px; }
+.brand-logo { display: block; width: 46px; height: 46px; flex: none; }
 .brand-copy { display: flex; flex-direction: column; line-height: 1; }
 .brand-copy strong { font: 800 22px var(--display); letter-spacing: .11em; }
 .brand-copy small { font-size: 8px; letter-spacing: .25em; margin-top: 5px; }
@@ -369,6 +365,7 @@ footer { background: #040b11; color: #8f9aa2; padding: 36px 0; font-size: 13px; 
 @media (max-width: 900px) {
   :root { --shell: min(100% - 32px, 720px); }
   .nav-wrap { height: 72px; }
+  .brand-logo { width: 42px; height: 42px; }
   .menu-toggle { display: block; }
   .nav-links { position: fixed; top: 72px; left: 0; right: 0; background: var(--ink); padding: 26px 24px 30px; display: none; flex-direction: column; align-items: stretch; gap: 4px; border-top: 1px solid rgba(255, 255, 255, .12); font-size: 17px; box-shadow: 0 30px 40px rgba(0, 0, 0, .35); }
   .nav-links > a:not(.nav-cta) { padding: 12px 0; border-bottom: 1px solid rgba(255, 255, 255, .08); }

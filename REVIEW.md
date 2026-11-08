@@ -46,6 +46,8 @@ end-to-end test after deployment is still required.
   address card over it (it loads as the visitor scrolls near it; privacy notice updated) and the
   coordinates in the search-engine data. If a page or browser blocks embedded maps, the drawn pin
   stays with a short note and the card's links still work.
+- **Logo (8 Nov):** the owner's logo replaces the placeholder mark in the header, footer, browser-tab icon,
+  phone home-screen icon, link-preview image and search-engine data.
 - Every product card has **Enquire →**, which jumps to the form with the panel type pre-selected.
 - Optional **Panel type** field (stored in a new `panel_type` column) and an internal `notes` column.
 - Phone/tablet **Call · WhatsApp · Get a quote** bar (appears after the hero, hides at the form).
@@ -59,10 +61,10 @@ end-to-end test after deployment is still required.
    in Bakrol–Bujrang also abbreviates to "SVI" (Shakti Vijay Industries), so consistent naming matters.
 2. **Email address.** The site uses a personal Yahoo address. A domain address such as
    `enquiry@svicontrolpanel.com` looks more credible and is needed to send alerts from your own domain.
-3. **Photos and logo.** The new drawings make the site complete, but real photos of SVI's own
+3. **Photos.** The new drawings make the site complete, but real photos of SVI's own
    panels, workshop and team will be more convincing to buyers. Send them when available and they
-   can replace the drawings one by one. Also replace the AI hero image and supply the official logo;
-   the bar mark is a placeholder.
+   can replace the drawings one by one. Also replace the AI hero image. (The official logo is in
+   place since 8 Nov; on dark backgrounds it carries a thin white outline so the black diamond shows.)
 4. **Numbers, reviews and FAQ answers.** Send real figures for *panels delivered* and
    *customers served* to switch those counters on; send two or three real customer quotes (with
    permission) to show the reviews slider; confirm the FAQ answers, especially lead time,

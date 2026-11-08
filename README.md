@@ -23,7 +23,8 @@ switches to sending online automatically, with no code changes.
 | `dist/assets/` | Hero image in WebP (800/1200/1774 px) + JPEG fallback |
 | `dist/assets/illustrations/` | 21 vector illustrations: six panel types, eight components, six workshop steps, technician at panel |
 | `dist/fonts/` | Self-hosted Manrope and DM Sans (SIL Open Font License) |
-| `dist/favicon.svg`, `apple-touch-icon.png`, `og-image.jpg` | Browser icon and link-preview image |
+| `dist/assets/logo-mark.png`, `logo.png` | SVI logo: header/footer version (thin white outline for dark backgrounds) and the original |
+| `dist/favicon.png`, `favicon.ico`, `apple-touch-icon.png`, `og-image.jpg` | Browser-tab icon, phone home-screen icon and link-preview image |
 | `dist/robots.txt`, `dist/sitemap.xml` | For search engines |
 | `api/form-config.js` | GET: tells the page whether online sending is on (public site key only) |
 | `api/enquiry.js` | POST: validates, checks Turnstile, saves to Supabase, optional email alert |
@@ -32,7 +33,7 @@ switches to sending online automatically, with no code changes.
 | `supabase/schema.sql` | Creates the `enquiries` table with row-level security |
 | `scripts/dev-server.cjs` | Local preview that behaves like Vercel |
 | `tests/enquiry.test.cjs` | Server tests (`npm test`) |
-| `source-assets/` | Original 2 MB hero PNG and the illustration generator (not deployed) |
+| `source-assets/` | Original logo (4000 px), original 2 MB hero PNG and the illustration generator (not deployed) |
 | `vercel.json` | Output folder, clean URLs, security headers, cron schedule |
 
 ## Run it locally
